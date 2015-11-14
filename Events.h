@@ -2,14 +2,19 @@
 #define Events_h
 
 #include <iostream>
+#include <algorithm>
+#include <functional>
+#include <cctype>
+#include <locale>
+
 using namespace std;
 
 //this class stores the baseline events from the files
 class Events
 {
 protected:
-    string name;
-    string type;
+    string name; //we will have the variables as string datatype for now as it is easier to read data in from the file this way
+    string type; //we can cast it to either int/double later on when we need to. 
     string min;
     string max;
     string unit;

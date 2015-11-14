@@ -35,12 +35,13 @@ void Events::setUnit(string unit){this->unit = unit;}
 void Events::setWeight(string weight){this->weight = weight;}
 
 void Events::printEvents() const{
+    
     cout << "Name: " << this->name << endl;
     cout << "Type: " << this->type << endl;
     cout << "Min: " << this->min << endl;
     cout << "Max: " << this->max << endl;
     cout << "Unit: " << this->unit << endl;
-    cout << "Weight: " << this->weight << endl;
+    cout << "Weight: " << this->weight << endl << endl;
     
 }
 
