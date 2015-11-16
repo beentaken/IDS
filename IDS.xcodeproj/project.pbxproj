@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		84A908911BF3A39D00B77030 /* Events.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84A9088F1BF3A39D00B77030 /* Events.cpp */; };
+		84A908951BF779D600B77030 /* Events.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84A908931BF779D600B77030 /* Events.cpp */; };
 		84B632B31BF1F44F00859B53 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84B632B21BF1F44F00859B53 /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -24,9 +24,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		84A9088F1BF3A39D00B77030 /* Events.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Events.cpp; path = ../Events.cpp; sourceTree = "<group>"; };
-		84A908901BF3A39D00B77030 /* Events.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Events.h; path = ../Events.h; sourceTree = "<group>"; };
 		84A908921BF4B1F100B77030 /* Stats.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stats.h; sourceTree = "<group>"; };
+		84A908931BF779D600B77030 /* Events.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Events.cpp; sourceTree = "<group>"; };
+		84A908941BF779D600B77030 /* Events.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Events.h; sourceTree = "<group>"; };
 		84B632AF1BF1F44F00859B53 /* IDS */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = IDS; sourceTree = BUILT_PRODUCTS_DIR; };
 		84B632B21BF1F44F00859B53 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -61,8 +61,8 @@
 		84B632B11BF1F44F00859B53 /* IDS */ = {
 			isa = PBXGroup;
 			children = (
-				84A908901BF3A39D00B77030 /* Events.h */,
-				84A9088F1BF3A39D00B77030 /* Events.cpp */,
+				84A908931BF779D600B77030 /* Events.cpp */,
+				84A908941BF779D600B77030 /* Events.h */,
 				84A908921BF4B1F100B77030 /* Stats.h */,
 				84B632B21BF1F44F00859B53 /* main.cpp */,
 			);
@@ -125,7 +125,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84A908911BF3A39D00B77030 /* Events.cpp in Sources */,
+				84A908951BF779D600B77030 /* Events.cpp in Sources */,
 				84B632B31BF1F44F00859B53 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

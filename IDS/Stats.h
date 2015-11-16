@@ -17,6 +17,7 @@ protected:
     string mean; //we will have mean and stdDev as string datatypes as it is easier to read in from the file that way
     string stdDev; //we can cast string to int or double later on when we need it.
     double value;
+    double dayMean;
     int hour;
 public:
     
@@ -52,9 +53,13 @@ public:
     
     
     void printStats() const{
-        cout << "Name: " << this->name << endl;
-        cout << "Mean: " << this->mean << endl;
-        cout << "Std Dev: " << this->stdDev << endl <<endl;
+        cout << "Event Name:" << this->name << endl;
+        cout << "Event Mean:" << this->mean << endl;
+        cout << "Event Std Dev:" << this->stdDev << endl;
+    }
+    
+    void printRandEvents() const{
+        cout << this->hour << "HRS:" << this->name << ":" << this->type << ":" << this->value << endl;
     }
     
     void setMean(string mean){this->mean=mean;}
@@ -63,11 +68,14 @@ public:
     void setTime(int hour){this->hour=hour;}
     
     string getName() const{return this->name;}
+    int getTime() const {return this->hour;}
     string getType() const{return this->type;}
     string getMin() const{return this->min;}
     string getMax() const{return this->max;}
     string getUnit() const{return this->unit;}
     string getWeight() const{return this->weight;}
+    string getMean() const{return this->mean;}
+    string getStdDev() const{return this->stdDev;}
 };
 
 #endif /* Stats_h */
